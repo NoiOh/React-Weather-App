@@ -1,11 +1,11 @@
 import "./App.css";
-import Weather from "./Weather";
+import Search from "./Search";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">Hello ~!</header>
-      <Weather city="New York" />
+      <header className="App-header">Weather Search Engine</header>
+      <Search />
     </div>
   );
 }
