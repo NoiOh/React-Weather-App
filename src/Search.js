@@ -37,14 +37,6 @@ export default function Search() {
         />
         <input type="submit" value="Search" />
       </form>
-      <a
-        href="https://github.com/NoiOh/Weather-App-V2"
-        target="_blank"
-        rel="noreferrer"
-      >
-        Open-source code
-      </a>{" "}
-      by Noi Houangvan
     </div>
   );
 
