@@ -4,7 +4,7 @@ import Search from "./Search";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">Weather Search Engine</header>
+      <h1>Weather Search Engine</h1>
       <Search />
       <footer>
         <a
