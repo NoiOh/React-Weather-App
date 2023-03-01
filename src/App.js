@@ -5,7 +5,6 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>Weather Search Engine</h1>
         <Search />
 
         <footer>
@@ -14,7 +13,7 @@ function App() {
             target="_blank"
             rel="noreferrer"
           >
-            Open-source code
+            Open-source coded
           </a>{" "}
           by Noi Houangvan
         </footer>
