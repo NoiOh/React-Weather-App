@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <Search />
+        <Search defaultCity="New York" />
 
         <footer>
           <a
