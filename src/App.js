@@ -1,11 +1,11 @@
 import "./App.css";
-import Search from "./Search";
+import SearchEngine from "./SearchEngine";
 
 function App() {
   return (
     <div className="App">
       <div className="container">
-        <Search defaultCity="New York" />
+        <SearchEngine defaultCity="New York" />
 
         <footer>
           <a

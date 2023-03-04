@@ -1,40 +1,40 @@
-.Search {
+.SearchEngine {
   border: 1px solid #dadde1;
   border-radius: 4px;
   font-family: Arial, Helvetica, sans-serif;
   padding: 20px;
 }
 
-.Search form {
+.SearchEngine form {
   margin-bottom: 20px;
 }
 
-.Search h1 {
+.SearchEngine h1 {
   font-size: 24px;
   font-weight: bold;
   line-height: 20px;
   opacity: 0.4;
 }
 
-.Search ul {
+.SearchEngine ul {
   margin: 0;
   padding: 0;
 }
 
-.Search li {
+.SearchEngine li {
   font-size: 16px;
   line-height: 20px;
   list-style: none;
 }
 
-.Search .temperature {
+.SearchEngine .temperature {
   font-size: 40px;
   font-weight: bold;
   position: relative;
   top: 10px;
 }
 
-.Search .unit {
+.SearchEngine .unit {
   font-size: 16px;
   position: relative;
   top: -8px;
