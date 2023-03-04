@@ -30,6 +30,7 @@
 .SearchEngine .temperature {
   color: rgb(33, 33, 33);
   font-size: 64px;
+  margin-left: 5px;
   position: relative;
   top: -10px;
 }
