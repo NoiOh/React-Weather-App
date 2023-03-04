@@ -21,8 +21,15 @@ export default function SearchEngine(props) {
     });
   }
 
+  function search() {
+    const key = "c819171fe0abdc14039af4ef5dda283b";
+    let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${key}&units=imperial`;
+    axios.get(url).then(displayWeather);
+  }
+
   function handleSearch(event) {
     event.preventDefault();
+    search();
   }
 
   function updateCity(event) {
@@ -39,6 +46,7 @@ export default function SearchEngine(props) {
                 type="search"
                 placeholder="Search for a city"
                 className="form-control"
+                onChange={updateCity}
               />
             </div>
             <div className="col-3">
@@ -47,7 +55,6 @@ export default function SearchEngine(props) {
                 value="Search"
                 className="btn btn-primary w-100"
                 autoFocus="on"
-                onChange={updateCity}
               />
             </div>
           </div>
@@ -56,10 +63,7 @@ export default function SearchEngine(props) {
       </div>
     );
   } else {
-    const key = "c819171fe0abdc14039af4ef5dda283b";
-    let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${key}&units=imperial`;
-    axios.get(url).then(displayWeather);
-
+    search();
     return "loading..";
   }
 }
